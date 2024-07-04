@@ -5,7 +5,7 @@ Framework for adding skills in game.
 1. Add SkillsComponent to Actor
 2. Create skill derived from SkillBase class
     - For Blueprints:  Redifine Cast event and change cooldown
-    - For C++:         Redifine Cast_Implementation() and set cooldown in USkillBase()
+    - For C++:         Redifine Cast_Implementation() and set cooldown
 3. Add created skills to skill class list in the SkillsComponent on your actor
 4. Use Skill(int index) method in SkillsComponent to cast skill
 
