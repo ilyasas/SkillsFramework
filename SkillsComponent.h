@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -34,10 +32,6 @@ protected:
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	void SkillOne();
-	void SkillTwo();
-	void SkillThree();
-	void SkillFour();
 
 	//Cast skill by index
 	UFUNCTION(BlueprintCallable)
