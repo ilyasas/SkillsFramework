@@ -23,7 +23,7 @@ void USkillsComponent::BeginPlay()
 		{
 			skillsObject[i]->cooldownTimestamp = 1.f;
 			skillsObject[i]->skillsComponent = this;
-			skillsObject[i]->player = Cast<APlayerCharacter>(GetOwner());
+			skillsObject[i]->player = GetOwner();
 		}
 	}
 }

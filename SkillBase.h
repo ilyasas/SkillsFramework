@@ -44,7 +44,7 @@ public:
 
 	//SkillComponent owner reference
 	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, meta = (EditConditionHides))
-	APlayerCharacter* player;
+	AActor* player;
 
 	float cooldownTimestamp;
 
